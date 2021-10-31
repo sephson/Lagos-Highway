@@ -1,0 +1,29 @@
+.flexcards {
+  margin: 4rem 0;
+  padding: 0 10rem;
+  color: #3a4354;
+}
+
+.flex-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular {
+  margin-bottom: 0.5rem;
+}
+
+.see {
+  font-weight: bold;
+}
+
+.flex {
+  margin-top: 2rem;
+}
+
+.flexart {
+  width: 17rem;
+  height: 10rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}

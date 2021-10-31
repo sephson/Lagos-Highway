@@ -32,6 +32,16 @@
   font-size: 1rem;
 }
 
+.nav-find-btn:hover {
+  background-color: #ffb427b5;
+  padding: 0 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #fdfdfd;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
 .logo {
   color: #f8b333;
 }

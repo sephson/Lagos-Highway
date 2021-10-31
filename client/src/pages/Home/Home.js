@@ -1,4 +1,5 @@
 import React from "react";
+import FlexCards from "../../components/FlexCards/FlexCards";
 import Hero from "../../components/Hero/Hero";
 import Navbar from "../../components/Navbar/Navbar";
 import Places from "../../components/Places/Places";
@@ -10,6 +11,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Places />
+      <FlexCards />
       <Prefooter />
     </div>
   );
