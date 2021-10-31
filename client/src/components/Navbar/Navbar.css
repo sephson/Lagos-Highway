@@ -44,6 +44,8 @@
   border-top: none;
   border-bottom: none;
   padding: 1.7rem 1rem;
+  color: #3a4354;
+  cursor: pointer;
 }
 
 .log-in {
@@ -54,7 +56,9 @@
   margin-left: 0.5rem;
   padding-left: 2.5rem;
   padding-top: 1.6rem;
+  cursor: pointer;
   padding-bottom: 1.6rem;
+  color: #3a4354;
 }
 
 .signup-items {
