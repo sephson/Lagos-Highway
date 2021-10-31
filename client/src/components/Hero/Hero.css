@@ -1,0 +1,16 @@
+.hero {
+  margin-top: 10rem;
+  padding: 0 12rem;
+  text-align: center;
+  color: #357;
+}
+
+.hero-header {
+  font-size: 3.5rem;
+  padding-bottom: 2rem;
+}
+
+.hero-text {
+  font-size: 1rem;
+  font-weight: 600;
+}
