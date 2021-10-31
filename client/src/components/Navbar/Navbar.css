@@ -1,0 +1,64 @@
+.Navbar-items {
+  display: grid;
+  grid-template-columns: 1fr 7fr 2fr;
+  padding: 0rem 4rem;
+  align-items: center;
+  border: solid 1px #e0e0e0;
+}
+
+.search {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.nav-search {
+  padding: 0.5rem;
+  width: -webkit-fill-available;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: solid 1px #bdbdbd;
+  outline: none;
+}
+
+.nav-find-btn {
+  background-color: #f8b333;
+  padding: 0 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #fdfdfd;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.logo {
+  color: #f8b333;
+}
+
+.sign-up {
+  color: #080600;
+  font-weight: bold;
+  border: solid 1px #e0e0e0;
+  text-align: center;
+  border-top: none;
+  border-bottom: none;
+  padding: 1.7rem 1rem;
+}
+
+.log-in {
+  color: #080600;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 0.5rem;
+  margin-left: 0.5rem;
+  padding-left: 2.5rem;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+.signup-items {
+  display: flex;
+  font-size: 0.9rem;
+  justify-content: right;
+}
