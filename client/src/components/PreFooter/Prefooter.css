@@ -3,4 +3,20 @@
   color: #fdfdfd;
   margin-top: 7rem;
   height: 15rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.pf-text {
+  padding-bottom: 1rem;
+}
+
+.pf-btn {
+  background-color: #f8b333;
+  padding: 1.5rem 4rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #fdfdfd;
+  font-weight: bold;
+  font-size: 1rem;
 }
