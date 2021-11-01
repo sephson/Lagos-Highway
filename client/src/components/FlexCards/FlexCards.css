@@ -19,11 +19,45 @@
 
 .flex {
   margin-top: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .flexart {
-  width: 17rem;
-  height: 10rem;
+  width: 20rem;
+  height: 13rem;
   border-radius: 0.5rem;
   object-fit: cover;
+  width: -webkit-fill-available;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first {
+  margin: 0.5rem 0;
+}
+
+.rating {
+  background-color: #68a275;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.price {
+  margin-top: 0.4rem;
+}
+@media screen and (max-width: 1071px) {
+  .flex {
+    margin-top: 2rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+  }
 }

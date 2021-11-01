@@ -12,6 +12,22 @@ const FlexCards = () => {
       reviews: "38 reviews",
       rating: "4.9/5",
     },
+    {
+      flexArt: pic,
+      flexName: "Revolusion Bistro",
+      flexLocation: "Awolowo Road",
+      price: "#2000-#3000",
+      reviews: "38 reviews",
+      rating: "4.9/5",
+    },
+    {
+      flexArt: pic,
+      flexName: "Revolusion Bistro",
+      flexLocation: "Awolowo Road",
+      price: "#2000-#3000",
+      reviews: "38 reviews",
+      rating: "4.9/5",
+    },
   ];
   return (
     <div className="flexcards">
@@ -28,15 +44,15 @@ const FlexCards = () => {
           return (
             <div className="flex-container">
               <img className="flexart" src={flex.flexArt} alt="flex-location" />
-              <section className="section">
-                <h2>{flex.flexName}</h2>
-                <div>{flex.rating}</div>
+              <section className="section first">
+                <h3>{flex.flexName}</h3>
+                <div className="rating">{flex.rating}</div>
               </section>
               <section className="section">
                 <p>{flex.flexLocation}</p>
                 <p>{flex.reviews}</p>
               </section>
-              <p>{flex.price}</p>
+              <p className="price">{flex.price}</p>
             </div>
           );
         })}
