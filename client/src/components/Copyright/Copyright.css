@@ -1,0 +1,11 @@
+.copyright {
+  margin-top: 5rem;
+  border: solid 1px #e0e0e0;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  padding: 4rem 0;
+  color: #4f4f4f;
+  display: flex;
+  justify-content: space-between;
+}

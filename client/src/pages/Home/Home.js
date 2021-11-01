@@ -1,4 +1,5 @@
 import React from "react";
+import Copyright from "../../components/Copyright/Copyright";
 import FlexCards from "../../components/FlexCards/FlexCards";
 import Hero from "../../components/Hero/Hero";
 import Navbar from "../../components/Navbar/Navbar";
@@ -13,6 +14,7 @@ const Home = () => {
       <Places />
       <FlexCards />
       <Prefooter />
+      <Copyright />
     </div>
   );
 };
